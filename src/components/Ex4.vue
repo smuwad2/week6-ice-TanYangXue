@@ -20,11 +20,11 @@
     
     <!-- Modify code here -->
     <div class="container">
-        <div v-bind:id="id" :class="{redBox: isActive, blueBox: !isActive}" class="m-2">
+        <div v-bind:id="id" :class="{redBox: !isActive, blueBox: isActive}" class="m-2">
             div ID : {{id}} 
         </div>
         
-        <button type="button" v-bind:onclick="changeActive" v-bind:class="{'btn btn-danger': isActive, 'btn btn-primary': !isActive}">Change Color</button>
+        <button type="button" v-bind:onclick="changeActive" v-bind:class="{'btn btn-danger': !isActive, 'btn btn-primary': isActive}">Change Color</button>
     </div>
 
 </template>

@@ -24,15 +24,15 @@ export default {
             }
             if(this.themes[this.currentThemeIndex] == 'dark'){
                 this.bgColor = "#333";
-                this.text = "fff";
+                this.textColor = "#fff";
             }
             if(this.themes[this.currentThemeIndex] == 'light'){
                 this.bgColor = "#fff";
-                this.text = "#000";
+                this.textColor = "#000";
             }
             if(this.themes[this.currentThemeIndex] == 'neon'){
                 this.bgColor = "#39ff14";
-                this.text = "#000";
+                this.textColor = "#000";
             }
             
         }
